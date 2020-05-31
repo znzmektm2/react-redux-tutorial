@@ -17,7 +17,7 @@ import { increase, decrease } from '../modules/counter';
 //   // }),
 
 //   // dispatch로 감싸는 작업을 bindActionCreators가 대신해 준다  
-//   // dispatch => bindActionCreators({increase, decrease}),
+//   // dispatch => bindActionCreators({increase, decrease}, dispatch),
 
 //   // connect 함수가 내부적으로 bindActionCreators 작업을 대신해 준다.
 //   {increase, decrease} 
